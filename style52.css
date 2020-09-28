@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+    height: 0;
+}
+.navbar-nav{
+    margin-left:140px;
+    margin-top:-140px;
+    color: burlywood;
+}
+#myNavbar{
+    font-size: 20px;
+    margin-top: -1300px; 
+    margin-left: 0px;
+}
+.icon-bar{
+    color: white;
+    border-color: white;
+     background-color: white;
+}
+.row{
+    margin: 0;
+}
+#booking{
+     background-color: burlywood;
+      height: 320px; 
+      width: 40%; 
+      float: right;
+      z-index: 30;
+      position: relative; 
+      margin-top: -370px;
+}
+#story{
+     z-index: 10;
+     background-color:rgba(2, 2, 2, 0.765);
+     min-height: 450px;
+     position: relative;
+     width: 40%;
+     margin-top: -600px;
+     margin-left: 600px;
+     color: burlywood;
+     
+
+}
+#qc{
+    background-color: burlywood;
+    position: relative; 
+    min-height: 600px;
+    width: 100%;
+}
+#beans{
+    
+    margin-top: 10%;
+}
+.menu{
+    float:right;
+    padding-top: 30px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    margin-left: 5%;
+    text-align: right;
+    
+
+}
+@media only screen and (max-width: 768px) {
+    #booking{
+        margin-top: 0px;
+        float: none;
+        width: 100%;
+
+    }
+    #h{
+        display: none;
+    }
+    #story{
+        margin-top: -10px;
+        float: none;
+        width: 100%; 
+        margin-left: 0px;
+        position: sticky;
+        background-color: black;
+        width: 100%;
+        z-index: 20;
+        min-height: 550px;
+    }
+    #dis{
+        color: burlywood;
+        text-align: center;
+        padding-top: 30px;
+    }
+    #os{
+        text-align: center;
+    }
+    #qc{
+        margin-top: 540px;
+    }
+    #de{
+        margin-left: -50%;
+        padding: 0px;
+    }
+    .navbar-brand>img{
+        visibility: hidden;
+    }
+    .navbar-toggle{
+    
+        margin-top: -850px;
+        margin-left: 290px;
+        
+    }
+    .navbar-nav{
+        margin-left:50px;
+        margin-top:0px;
+    }
+    .navbar-nav>li>a{
+        z-index: 40;
+    }
+    #bs{
+        
+        margin:0px !important;
+        padding: 0px !important;
+        margin-left: 60px !important;
+    }
+    #he{
+        margin: 0px !important;
+        padding:30px !important;
+    }
+    #para{
+        text-align: center;
+    }
+    #para2{
+        margin: 0px !important;
+        float: left; 
+        margin-left: 70px!important;       
+    }
+    #mnu{
+        margin: 0px !important;
+        padding-top: 30px !important;
+        text-align: center !important;
+        float: none;
+        color: burlywood;
+        
+    }
+    #mnu2{
+        margin: 0px !important;
+        padding: 10px !important;
+        text-align: center !important;
+        float: none;
+        
+    }
+    #cup-png{
+        margin-top:0px;
+        height: 1180px;
+    }
+   .me{
+       margin-left: 40px;
+   }
+   .cc{
+       margin-left: 80px;
+   }
+   #pro{
+        text-align: center !important;
+     margin-left:70px !important;
+     padding: 0px !important;  
+     font-size: 20px !important;
+   }
+   #order-online{
+       margin: 0px !important;
+       margin-top: 20px!important;
+   }
+}
